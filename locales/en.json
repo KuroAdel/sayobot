@@ -1,0 +1,166 @@
+{
+  "clip": {
+    "description": "Pustím zvuk klipu",
+    "usagesReply": "Použití: /clip <name>",
+    "errorQueue": "Klip nelze přehrát, protože existuje aktivní fronta!",
+    "errorNotChannel": "Musíš být ve Voice roomce!!!"
+  },
+  "clips": {
+    "description": "Seznam všech klipů"
+  },
+  "help": {
+    "description": "Ukážu všechny příkazy a popisky k nim",
+    "embedTitle": "{botname} Help",
+    "embedDescription": "Seznam všech příkazů"
+  },
+  "invite": {
+    "description": "Drzoune!! >:( Nikdy neopustím Bažinu! Pche!~"
+  },
+  "loop": {
+    "description": "Budu opakovat momentální skladbu",
+    "errorNotQueue": "Momentálně nic nehraje- *Fňuk*",
+    "result": "Opakování je právě {loop}"
+  },
+  "lyrics": {
+    "description": "Vypíšu text pro tůtu písničku {title}",
+    "errorNotQueue": "Momentálně nic nehrajeee!!",
+    "lyricsNotFound": "Ups- Žádný text pro {title}.",
+    "embedTitle": "{title} - Lyrics"
+  },
+  "move": {
+    "description": "Posunu písničku v pořadí",
+    "errorNotQueue": "Čuchám čuchám, ale nikde žádná fronta-",
+    "usagesReply": "Použití: {prefix}move <Queue Number>",
+    "result": "<@{author}> 🚚 posunul/a **{title}** na {index} v pořadí."
+  },
+  "nowplaying": {
+    "description": "Ukážu písničku, co právě hraje~",
+    "errorNotQueue": "Kurňa ale- Právě nic nehraje!",
+    "embedTitle": "Sakra práce, právě nic nehraje",
+    "live": " ◉ Živě",
+    "timeRemaining": "Zbývající čas: {time}"
+  },
+  "pause": {
+    "description": "Pozastavím momentálně hrající hudbu",
+    "errorNotQueue": "Momentálně nic nehraje!",
+    "result": "<@{author}> ⏸ pozastavil/a písničku :("
+  },
+  "ping": {
+    "description": "Ukážu svůj průměrný ping",
+    "result": "📈 Průměrný ping: {ping} ms"
+  },
+  "play": {
+    "description": "Pustím hudbu z YouTubu",
+    "errorNotChannel": "Musíš být ve Voice roomce!!!",
+    "errorNotInSameChannel": "Musíš být ve stejné místnosti jako {user}",
+    "usageReply": "Použití: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
+    "missingPermissionConnect": "Nemohem se připojiti do Roomky, KDE JSOU MOJE PRÁVA?!!",
+    "missingPermissionSpeak": "Nemohem mluvit v tůtom hlasovým kanále, ujisti se, že mám správná oprávnění!",
+    "queueAdded": "✅ **{title}** byl přidán do fronty uživatelem <@{author}>",
+    "cantJoinChannel": "Ke kanálu se nedá připojit: {error}",
+    "queueEnded": "❌ Došly mi písničky :(",
+    "queueError": "Error: {error}",
+    "startedPlaying": "🎶 Právě jsem začala hrát: **{title}** {url}",
+    "skipSong": "<@{author}> ⏩ přeskočil/a písničku",
+    "pauseSong": "<@{author}> ⏸ pozastavil/a písničku.",
+    "resumeSong": "<@{author}> ▶ opětovně pustil/a písničku!",
+    "unmutedSong": "<@{author}> 🔊 odmlčel/a písničky!",
+    "mutedSong": "<@{author}> 🔇 zlumil/a písničky!",
+    "decreasedVolume": "<@{author}> 🔉 snížil/a hlasitost, hlasitost je nyní {volume}%",
+    "increasedVolume": "<@{author}> 🔊 zvýšil/a hlasitost, hlasitost je nyní{volume}%",
+    "loopSong": "<@{author}> Opakování je právě {loop}",
+    "stopSong": "<@{author}> ⏹ zastavil/a hudbu!",
+    "leaveChannel": "Opouštím místnost... :c Uvidíme se příště-",
+    "songNotFound": "Audio nenalezeno"
+  },
+  "playlist": {
+    "description": "Přehraju seznam skladeb z YouTubu",
+    "usagesReply": "Použití: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
+    "errorNotChannel": "Musíš být ve Voice roomce!",
+    "errorNotInSameChannel": "Musíš být ve stejné Voice roomce jako {user}",
+    "missingPermissionConnect": "Nemůžu kecat v téhle roomce, nemám oprávnění REEE {permission}",
+    "missingPermissionSpeak": "Nemohu mluvit v tomto hlasovém kanále, ujisti se, že mám správná oprávnění!!!",
+    "errorNotFoundPlaylist": "Playlist nenalezen :c",
+    "fetchingPlaylist": "⌛ načítání seznamu skladeb...",
+    "playlistCharLimit": "\nSeznam videí překračuje povolený počet znaků...",
+    "startedPlaylist": "<@{author}> spustil/a playlist",
+    "cantJoinChannel": "Nelze se připojit ke kanálu: {error}"
+  },
+  "pruning": {
+    "description": "Přepnout ořezávání zpráv botů",
+    "errorWritingFile": "Došlo k chybě při zápisu do souboru.",
+    "result": "Prořezávání zpráv je {result}"
+  },
+  "queue": {
+    "description": "Zobrazím frontu hudby a přehrávání.",
+    "missingPermissionMessage": "Chybí mi oprávnění ke správě zpráv nebo přidávání reakcí >:[",
+    "errorNotQueue": "❌ **Na tomhle serveru se nic nehraje - DEAD**",
+    "currentPage": "Aktuální stránka - ",
+    "embedTitle": "Fronta skladeb\n",
+    "embedCurrentSong": "**Aktuální skladba - [{title}]({url})**\n\n{info}"
+  },
+  "remove": {
+    "description": "Odeberu skladbu z fronty",
+    "errorNotQueue": "Neexistuje žádná fronta Pinďo",
+    "usageReply": "Použití: {prefix}remove <Číslo fronty>",
+    "result": "<@{author}> ❌ odstraněno **{title}** z fronty."
+  },
+  "resume": {
+    "description": "Odstopnu aktuálně přehrávanou hudbu",
+    "errorNotQueue": "právě nic nehraje ty Pepíku-",
+    "resultNotPlaying": "<@{author}> ▶ obnovil/a hudbu!",
+    "errorPlaying": "Fronta není pozastavena AAA!"
+  },
+  "search": {
+    "description": "Vyhledej a vyber si videa k puštění :o",
+    "usageReply": "Použití: {prefix}{name} <název videa>",
+    "errorAlreadyCollector": "V tomhle kanále už je aktivní sběrač zpráv--",
+    "errorNotChannel": "Musíš být ve Voice roomce Trdlo-",
+    "resultEmbedTtile": "**Odpověz číslem skladby, kterou chceš pustit**",
+    "resultEmbedDesc": "Výsledky pro: {search}"
+  },
+  "shuffle": {
+    "description": "Promixuju frontu",
+    "errorNotQueue": "Neexistuje žádná fronta-",
+    "result": "<@{author}> 🔀 zamíchal/a frontu"
+  },
+  "skip": {
+    "description": "Přeskočím aktuálně hrající skladbu",
+    "errorNotQueue": "ŠMARJA není, co přeskočit.",
+    "result": "<@{author}> ⏭ přeskočil/a skladbu"
+  },
+  "skipto": {
+    "description": "Přeskočím na vybrané číslo fronty",
+    "usageReply": "Použití: {prefix}{name} <Číslo fronty>",
+    "errorNotQueue": "Neexistuje žádná fronta!!",
+    "errorNotValid": "Fronta je dlouhá pouze {length} skladeb!",
+    "result": "<@{author}> ⏭ přeskočil {arg} skladeb"
+  },
+  "stop": {
+    "description": "Stopnu hudbu",
+    "errorNotQueue": "Momentálně nic nehraje-",
+    "result": "<@{author}> ⏹ zastavil/a hudbu!"
+  },
+  "uptime": {
+    "description": "Check the uptime",
+    "result": "Uptime: `{days} day(s),{hours} hours, {minutes} minutes, {seconds} seconds`"
+  },
+  "volume": {
+    "description": "Změním hlasitost aktuálně přehrávané hudby",
+    "errorNotQueue": "hele jo, momentálně nic nehraje-",
+    "errorNotChannel": "Musíš být ve Voice roomce!!",
+    "currentVolume": "🔊 Aktuální hlasitost je: **{volume}%**",
+    "errorNotNumber": "Pro nastavení hlasitosti použij číslo.",
+    "errorNotValid": "Použij číslo mezi 0 - 100.",
+    "result": "Hlasitost nastavena na: **{arg}%**"
+  },
+  "common": {
+    "on": "**on**",
+    "off": "**off**",
+    "enabled": "**enabled**",
+    "disabled": "**disabled**",
+    "errorNotChannel": "Musíš být ve Voice roomce",
+    "cooldownMessage": "please wait {time} more second(s) before reusing the `{name}` command.",
+    "errorCommand": "There was an error executing that command."
+  }
+}
